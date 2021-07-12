@@ -2,8 +2,6 @@ import React, { Component, } from 'react';
 import {  Text, StyleSheet, } from 'react-native';
 import Background from "../components/Background";
 import Button from "../components/Button";
-
-
 import firebase from '@firebase/app'
 import { ScrollView } from 'react-native-gesture-handler';
 
@@ -69,4 +67,4 @@ export default class ForthPage extends Component{
     },
   });
   
-  
+ 

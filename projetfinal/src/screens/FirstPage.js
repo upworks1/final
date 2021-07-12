@@ -27,7 +27,7 @@ class FirstPage extends Component {
     const { selectedStartDate } = this.state;
     const startDate = selectedStartDate ? selectedStartDate.toString().split('00:00:00 GMT+0000') : '';
     const { navigate } = this.props.navigation;
-    var dataToSend = null; 
+   
    
     dataToSend = {data: " Nom: " + this.state.username
     + " Lieu: "  + this.state.comensales
